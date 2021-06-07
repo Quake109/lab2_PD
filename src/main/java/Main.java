@@ -118,6 +118,8 @@ public class Main {
                 .phoneNumer("+48 555444333")
                 .build();
 
+        mapper.save(newClient2);
+
         Client newClient3 = new Client().builder()
                 .id(3)
                 .name("Jan")
